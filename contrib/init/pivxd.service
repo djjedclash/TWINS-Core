@@ -1,0 +1,26 @@
+[Unit]
+Description=TWINS's distributed currency daemon
+After=network.target
+
+[Service]
+User=twins
+Group=twins
+
+Type=forking
+PIDFile=/var/lib/twinsd/twinsd.pid
+
+ExecStart=/usr/bin/twinsd -daemon -pid=/var/lib/twinsd/twinsd.pid \
+          -conf=/etc/twins/twins.conf -datadir=/var/lib/twinsd
+
+ExecStop=-/usr/bin/twins-cli -conf=/etc/twins/twins.conf \
+         -datadir=/var/lib/twinsd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,82 @@
+compat/libbitcoin_util_a-glibc_sanity.o: compat/glibc_sanity.cpp \
+  config/twins-config.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../include/c++/v1/cstddef \
+  /home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../include/c++/v1/__config \
+  /home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../lib/clang/3.7.1/include/stddef.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../lib/clang/3.7.1/include/__stddef_max_align_t.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/select.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/appleapiopts.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/cdefs.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_symbol_aliasing.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_posix_availability.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/machine/_types.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/i386/_types.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_def.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timespec.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timeval.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_time_t.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_suseconds_t.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_sigset_t.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_setsize.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_set.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_clr.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_isset.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_zero.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_copy.h \
+  /home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_select.h
+
+config/twins-config.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../include/c++/v1/cstddef:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../include/c++/v1/__config:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../lib/clang/3.7.1/include/stddef.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/x86_64-apple-darwin11/native/bin/../lib/clang/3.7.1/include/__stddef_max_align_t.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/select.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/appleapiopts.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/cdefs.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_symbol_aliasing.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_posix_availability.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/machine/_types.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/i386/_types.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_def.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timespec.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_timeval.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_time_t.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_suseconds_t.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_sigset_t.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_setsize.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_set.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_isset.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_zero.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_types/_fd_copy.h:
+
+/home/mdfkbtc/Desktop/ABP-master/depends/SDKs/MacOSX10.11.sdk/usr/include/sys/_select.h:
