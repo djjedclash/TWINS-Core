@@ -164,6 +164,12 @@ bool ComputeNextStakeModifier(const CBlockIndex* pindexPrev, uint64_t& nStakeMod
         return true;
     }
 
+    // Hard form after block 7240 to slow down to correct block spacing
+    // estimated to happen on about Sat Jan 12, 12:00 GMT
+    if (pindexPrev->nHeight >= 7960) {
+        nStakeTargetSpacing = 120;
+    }
+
     // First find current stake modifier and its generation block time
     // if it's not old enough, return the same stake modifier
     int64_t nModifierTime = 0;
