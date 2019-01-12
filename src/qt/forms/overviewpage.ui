@@ -117,7 +117,7 @@ font: &quot;Vemana2000&quot;;</string>
                 </font>
                </property>
                <property name="text">
-                <string>OVERVIEW</string>
+                <string>OVERVIEW PAGE</string>
                </property>
                <property name="alignment">
                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
