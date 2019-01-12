@@ -16,7 +16,7 @@ background-color:rgb(56, 56, 56);
 .QFrame {
 background-color:rgb(56, 56, 56);
 border:0px solid #fff;
-color:rgb(211, 215, 207);
+color:rgb(255, 255, 255);
 }
 
 QMenuBar {
@@ -207,7 +207,7 @@ background-color:#f2f2f2;
 /***************************** Global Qt Objects ***********************************************************/
 
 QPushButton { /* Global Button Style */
-background-color: #7c644c; 
+background-color: #7c644c;
 border-width: 1px;
 border-style: outset;
 border-color: #a58b60;
@@ -1329,7 +1329,7 @@ QDialog#SendCoinsDialog .QFrame#frameCoinControl .QWidget#widgetCoinControl > .Q
 padding:2px;
 }
 
-/* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QCheckBox#checkBoxCoinControlChange { /* Custom Change Label */ 
+/* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QCheckBox#checkBoxCoinControlChange { /* Custom Change Label */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange { /* Custom Change Address */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QValidatedLineEdit#lineEditCoinControlChange:!focus { /* Custom Change Address */
 /* QDialog#SendCoinsDialog .QFrame#frameCoinControl .QLineEdit#splitBlockLineEdit { */
@@ -1619,7 +1619,7 @@ QLabel#transactionSumLabel { /* Example of setObjectName for widgets without nam
 color:rgb(70, 81, 86);
 font-weight:bold;
 }
- 
+
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
 color:rgb(70, 81, 86);
 }
