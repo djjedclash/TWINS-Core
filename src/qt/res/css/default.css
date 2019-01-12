@@ -1230,7 +1230,7 @@ margin-left:0px;
 QWidget .QFrame#frame_CombinedBalances .QLabel#labelTotalTextz { /* Available total Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:red;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
