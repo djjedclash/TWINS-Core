@@ -78,16 +78,16 @@ color:#fff;
 
 /* QToolBar > QToolButton:hover:!selected { */
 QToolBar > QToolButton:hover {
-background-color:#ad8b7e;
+background-color:#000000;
 color:#fff;
 }
 
 QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-background-color:#ad8b7e; /* Do not highlight placeholder on hover */
+background-color:#000000; /* Do not highlight placeholder on hover */
 }
 
 QToolBar > QToolButton:pressed {
-background-color:#ad8b7e
+background-color:#000000
 color:#fff;
 }
 
@@ -884,7 +884,7 @@ padding-right:5px;
 /* Header design for ALL tabs/pages *****************************************************/
 /* Horizontal lines */
 QFrame[frameShape="4"] { /* QFrame::HLine == 0x0004 */
-border:1px solid #ad8b7e;
+border:1px solid #000000;
 }
 
 /* Headers */
@@ -1112,7 +1112,7 @@ padding-right:5px;
 QWidget .QFrame#frame_ZerocoinBalances .QLabel#labelzBalanceText { /* Available zVLS Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
@@ -1130,7 +1130,7 @@ margin-left:0px;
 QWidget .QFrame#frame_ZerocoinBalances .QLabel#labelzBalanceUnconfirmedText { /* Unconfirmed zVLS Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
@@ -1148,7 +1148,7 @@ margin-left:0px;
 QWidget .QFrame#frame_ZerocoinBalances .QLabel#labelzBalanceMatureText { /* Mature zVLS Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
@@ -1166,7 +1166,7 @@ margin-left:0px;
 QWidget .QFrame#frame_ZerocoinBalances .QLabel#labelzBalanceImmatureText { /* Immature zVLS Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
@@ -1195,7 +1195,7 @@ padding-right:5px;
 QWidget .QFrame#frame_CombinedBalances .QLabel#labelBalanceTextz { /* Available VLS Label */
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 min-width:160px;
-color:#ad8b7e;
+color:#000000;
 margin-right:5px;
 padding-right:5px;
 font-weight:bold;
@@ -1206,7 +1206,7 @@ QWidget .QFrame#frame_CombinedBalances .QLabel#labelBalancez { /* Available VLS 
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:26px;
 font-weight:normal;
-color:#ad8b7e;
+color:#000000;
 }
 
 QWidget .QFrame#frame_CombinedBalances .QLabel#labelzBalanceTextz { /* Available zVLS Label */
@@ -1241,7 +1241,7 @@ QWidget .QFrame#frame_CombinedBalances .QLabel#labelTotalz { /* Available total 
 qproperty-alignment: 'AlignVCenter | AlignLeft';
 font-size:26px;
 font-weight:normal;
-color:#ad8b7e;
+color:#000000;
 }
 
 /**************************** RECENT TRANSACTIONS ***************************************/
@@ -1635,7 +1635,7 @@ border:1px solid #d7d7d7;
 /* QWidget#PrivacyDialog */
 
 QWidget#PrivacyDialog .QFrame[frameShape="4"] { /* QFrame::HLine == 0x0004 */
-border:1px solid #ad8b7e;
+border:1px solid #000000;
 }
 
 QWidget#PrivacyDialog .QFrame#frame_Content {
