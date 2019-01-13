@@ -145,6 +145,12 @@ color:rgb(211, 215, 207);</string>
        </item>
        <item>
         <widget class="QCheckBox" name="checkBoxZeromintEnable">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
          <property name="toolTip">
           <string>Enable automatic minting of TWINS units to zTWINS</string>
          </property>
@@ -160,6 +166,9 @@ color:rgb(211, 215, 207);</string>
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QLabel" name="percentage_label">
+           <property name="visible">
+             <bool>false</bool>
+           </property>
            <property name="toolTip">
             <string>Percentage of incoming TWINS which get automatically converted to zTWINS via Zerocoin Protocol (min: 10%)</string>
            </property>
@@ -170,6 +179,9 @@ color:rgb(211, 215, 207);</string>
          </item>
          <item>
           <widget class="QSpinBox" name="zeromintPercentage">
+           <property name="visible">
+            <bool>false</bool>
+           </property>
            <property name="styleSheet">
             <string notr="true">background-color:rgb(70, 81, 86);
 color:rgb(211, 215, 207);</string>
@@ -191,6 +203,9 @@ color:rgb(211, 215, 207);</string>
          </property>
          <item>
           <widget class="QLabel" name="labelPreferredDenom">
+          <property name="visible">
+             <bool>false</bool>
+           </property>
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -207,6 +222,9 @@ color:rgb(211, 215, 207);</string>
          </item>
          <item>
           <widget class="QComboBox" name="preferredDenom">
+           <property name="visible">
+             <bool>false</bool>
+           </property>
            <property name="maximumSize">
             <size>
              <width>16777215</width>
@@ -266,6 +284,9 @@ color:rgb(211, 215, 207);</string>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <widget class="QCheckBox" name="coinControlFeatures">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
             <property name="toolTip">
              <string>Whether to show coin control features or not.</string>
             </property>

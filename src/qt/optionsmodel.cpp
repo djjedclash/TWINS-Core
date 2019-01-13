@@ -75,11 +75,11 @@ void OptionsModel::Init()
     fHideZeroBalances = settings.value("fHideZeroBalances").toBool();
 
     if (!settings.contains("fCoinControlFeatures"))
-        settings.setValue("fCoinControlFeatures", false);
-    fCoinControlFeatures = settings.value("fCoinControlFeatures", false).toBool();
+        settings.setValue("fCoinControlFeatures", true);
+    fCoinControlFeatures = settings.value("fCoinControlFeatures", true).toBool();
 
     if (!settings.contains("fZeromintEnable"))
-        settings.setValue("fZeromintEnable", true);
+        settings.setValue("fZeromintEnable", false);
     fEnableZeromint = settings.value("fZeromintEnable").toBool();
 
     if (!settings.contains("nZeromintPercentage"))
@@ -181,9 +181,9 @@ void OptionsModel::Reset()
     settings.clear();
     resetSettings = true; // Needed in twins.cpp during shotdown to also remove the window positions
 
-    // default setting for OptionsModel::StartAtStartup - disabled
+    // default setting for OptionsModel::StartAtStartup - enabled
     if (GUIUtil::GetStartOnSystemStartup())
-        GUIUtil::SetStartOnSystemStartup(false);
+        GUIUtil::SetStartOnSystemStartup(true);
 }
 
 int OptionsModel::rowCount(const QModelIndex& parent) const
